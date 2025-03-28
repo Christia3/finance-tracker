@@ -38,7 +38,7 @@ The **Personal Finance Tracker** is a simple web application that helps users ma
   4. Click **Save** and get the live URL.
  
      
-**Demo Video : https://drive.google.com/file/d/1-Mktwmjhr6OohCFdfQxsRYxcMdOk5PZ3/view?usp=sharing**
+**Demo Video : https://youtu.be/xOt9f9ckcD8**
 
 ## Credits
 - API: Alpha Vantage
