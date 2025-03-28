@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Light background for a clean look */
+    color: #333; /* Dark text for contrast */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff; /* White background for the main container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1, h2 {
+    color: #004d40; /* Dark teal color for headings */
+    text-align: center;
+    margin-bottom: 15px; /* Spacing below headings */
+}
+
+h1 {
+    font-size: 2.5em; /* Larger font size for main title */
+}
+
+h2 {
+    font-size: 1.8em; /* Slightly smaller for subsections */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Space below the form */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 80%; /* Full width for input fields */
+    padding: 10px;
+    margin: 10px 0; /* Space between inputs */
+    border: 2px solid #00796b; /* Border color */
+    border-radius: 5px; /* Rounded input edges */
+    font-size: 1em; /* Font size for inputs */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #004d40; /* Darker color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    width: 85%;
+    padding: 10px;
+    background-color: #00796b; /* Button color */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded button edges */
+    font-size: 1.1em; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #004d40; /* Darker shade on hover */
+}
+
+/* List Styles */
+#expense-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 20px 0; /* Space above and below the list */
+}
+
+#expense-list li {
+    padding: 10px;
+    background: #e0f2f1; /* Light teal background for list items */
+    border-radius: 5px; /* Rounded edges */
+    margin-bottom: 10px; /* Space between list items */
+    transition: transform 0.2s; /* Smooth scale effect */
+}
+
+#expense-list li:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+/* Financial Data Section */
+#financial-data {
+    padding: 10px;
+    background: #e1f5fe; /* Light blue background */
+    border-radius: 5px; /* Rounded edges */
+    margin-top: 20px; /* Space above the financial data */
+    text-align: center; /* Center align text */
+}
