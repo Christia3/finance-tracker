@@ -1,27 +1,49 @@
-finance-tracker
-
+# finance-Tracker
 
  Overview
-The **Personal Finance Tracker** is a web application designed to help users manage their expenses effectively. It allows users to input their expenses, view a list of recorded expenses, and fetch relevant financial data from an external API, providing insights into their spending habits. This application is built with HTML, CSS, and JavaScript and utilizes the Alpha Vantage API for financial data.
+The **Personal Finance Tracker** is a simple web application that helps users manage their expenses. It allows users to add, view, and track expenses while also fetching financial data from an external API.
 
-Features
-- Add Expenses: Users can enter a description and amount for each expense.
-- View Expenses: A dynamically updated list displays all recorded expenses.
-- Fetch Financial Data: The application retrieves real-time stock prices or financial data using the Alpha Vantage API.
-- User-Friendly Interface: Designed with an intuitive layout for easy navigation and interaction.
+ Features
+- Add Expenses: Enter a description and amount for each expense.
+- View Expenses: See a list of all recorded expenses.
+- Fetch Financial Data: Retrieve stock prices using the Alpha Vantage API.
+- User-Friendly: Clean and easy-to-use interface.
 
  Technologies Used
-- HTML: For structuring the web application.
-- CSS: For styling and layout.
-- JavaScript: For client-side functionality and API interaction.
-- Alpha Vantage API: For fetching financial data.
+- HTML: Structure
+- CSS: Styling
+- JavaScript: Functionality and API interaction
+- Alpha Vantage API: Fetching financial data
 
+ 
+ Prerequisites
+- A modern web browser (Chrome, Firefox, etc.)
 
-- A modern web browser (Google Chrome, Firefox, etc.)
-
- Installation Instructions
-1. **Clone the Repository**:
-   Open your terminal and run the following command:
+ Installation
+1. Clone the Repository:
    ```bash
    git clone https://github.com/Christia3/finance-tracker.git
-Demo video : https://drive.google.com/file/d/1-Mktwmjhr6OohCFdfQxsRYxcMdOk5PZ3/view?usp=sharing
+   ```
+2. Navigate to the Folder:
+   ```bash
+   cd finance-tracker
+   ```
+3. Open `index.html` in your browser**
+
+ Deployment
+- Host the project using GitHub Pages:
+  1. Go to your repository on GitHub.
+  2. Navigate to Settings > Pages.
+  3. Select the branch where your `index.html` file is located.
+  4. Click **Save** and get the live URL.
+ 
+     
+**Demo Video : https://drive.google.com/file/d/1-Mktwmjhr6OohCFdfQxsRYxcMdOk5PZ3/view?usp=sharing**
+
+## Credits
+- API: Alpha Vantage
+- Developed using HTML, CSS, and JavaScript.
+
+
+--- Thank You ---
+
