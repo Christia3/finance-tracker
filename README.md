@@ -1,6 +1,6 @@
 # finance-Tracker
 
- Overview
+ **Overview**
 The **Personal Finance Tracker** is a simple web application that helps users manage their expenses. It allows users to add, view, and track expenses while also fetching financial data from an external API.
 
  Features
